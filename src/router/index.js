@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import PageOne from '../components/PageOne'
 
 Vue.use(VueRouter)
 
@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/pageOne',
+    name: 'pageOne',
+    component: PageOne
   },
   {
     path: '/about',
